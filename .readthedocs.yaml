@@ -1,0 +1,22 @@
+# File: .readthedocs.yaml
+
+version: 2
+
+# Set the OS, Python version and other tools you might need
+build:
+  os: ubuntu-22.04
+  tools:
+    python: "3.7"
+    # You can also specify other tool versions:
+    # nodejs: "19"
+    # rust: "1.64"
+    # golang: "1.19"
+
+# Build from the docs/ directory with Sphinx
+sphinx:
+  configuration: Docs/conf.py
+
+# Explicitly set the version of Python and its requirements
+python:
+  install:
+    - requirements: Docs/requirements.txt

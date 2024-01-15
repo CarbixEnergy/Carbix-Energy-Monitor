@@ -1,0 +1,52 @@
+{
+	"format": 2,
+	"timezone": 0,
+	"update": "MINOR",
+	"device": {
+		"name": "CarbixEnergyMonitor",
+		"version": 3,
+		"channels": "15",
+		"burden": [
+			0,
+			20,
+			20,
+			20,
+			20,
+			20,
+			20,
+			20,
+			20,
+			20,
+			20,
+			20,
+			20,
+			20,
+			20
+		]
+	},
+	"inputs": [
+		{
+			"channel": 0,
+			"name": "Input_0",
+			"type": "VT",
+			"model": "Jameco/112336",
+			"cal": 11.43,
+			"phase": 0.6
+		},
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null,
+		null
+	],
+	"outputs": []
+}
