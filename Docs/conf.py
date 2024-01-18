@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'CarbixEnergyMonitor'
+project = u'Carbix Energy Monitor'
 copyright = u'2022, Carbix Energy'
 author = u'Carbix Energy'
 
@@ -102,7 +102,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'CarbixEnergyMonitordoc'
+htmlhelp_basename = 'Carbix Energy Monitor DOC'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -129,7 +129,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'CarbixEnergyMonitor.tex', u'CarbixEnergyMonitor Documentation',
+    (master_doc, 'CarbixEnergyMonitor.tex', u'Carbix Energy Monitor Documentation',
      u'Carbix Energy', 'manual'),
 ]
 
@@ -139,7 +139,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'carbixenergymonitor', u'CarbixEnergyMonitor Documentation',
+    (master_doc, 'carbix energy monitor', u'Carbix Energy Monitor Documentation',
      [author], 1)
 ]
 
@@ -150,8 +150,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'CarbixEnergyMonitor', u'CarbixEnergyMonitor Documentation',
-     author, 'CarbixEnergyMonitor', 'One line description of project.',
+    (master_doc, 'Carbix Energy Monitor', u'Carbix Energy Monitor Documentation',
+     author, 'Carbix Energy Monitor', 'One line description of project.',
      'Miscellaneous'),
 ]
 
