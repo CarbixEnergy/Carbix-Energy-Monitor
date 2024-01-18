@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'CarbixEnergyMonitor'
+project = u'Carbix Energy Monitor'
 copyright = u'2022, Carbix Energy'
 author = u'Carbix Energy'
 
