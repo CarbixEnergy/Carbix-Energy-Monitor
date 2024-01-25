@@ -30,7 +30,7 @@ and we will work hard for this.
 
 Thanks to Bob Lemaire the founder of IotaWatt for doing such a great job, we will continue to promote the open source development of this project.
 
-`Documentation <https://carbixenergymonitor.readthedocs.io>`_
+`Documentation <https://carbix-energy-monitor.readthedocs.io/en/latest/>`_
 
 .. image:: Docs/pics/status/inputsOutputsDisplay.png
     :scale: 20 %
