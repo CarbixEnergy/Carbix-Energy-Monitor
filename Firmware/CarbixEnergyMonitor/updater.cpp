@@ -2,7 +2,7 @@
 
 bool   unpackUpdate(String updateVersion);
 
-static const char updateURL_P[] PROGMEM = IOTA_UPDATE_HOST;
+static const char updateURL_P[] PROGMEM = CARBIX_UPDATE_HOST;
 static const char updatePath_P[] = CARBIX_VERSIONS_PATH;
 
 /*************************************************************************************************
@@ -290,7 +290,7 @@ uint32_t updater(struct serviceBlock* _serviceBlock) {
       if( ! request){
         request = new asyncHTTPrequest;
       }
-      String URL(FPSTR(IOTA_UPDATE_HOST));
+      String URL(FPSTR(CARBIX_UPDATE_HOST));
       URL += F(CARBIX_TABLE_DIR);
       URL += displaySemanticVersion(latestTableVersion);
       URL += ".txt";

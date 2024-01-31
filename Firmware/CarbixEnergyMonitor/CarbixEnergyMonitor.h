@@ -101,7 +101,7 @@ extern simSolar *simsolar;
 #define CARBIX_TABLE_PATH       "/tables.txt"
 #define CARBIX_NEW_TABLE_PATH   "/table+1.txt"
 #define CARBIX_INTEGRATIONS_DIR "/carbixenergymonitor/integrations/"
-#define IOTA_UPDATE_HOST        "iotawatt.com"
+#define CARBIX_UPDATE_HOST      "carbix.co"
 #define CARBIX_VERSIONS_PATH    "/firmware/versions.json"
 #define CARBIX_VERSIONS_DIR     "/firmware/bin/"
 #define CARBIX_TABLE_DIR        "/download/tables/"
