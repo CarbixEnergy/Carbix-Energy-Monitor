@@ -29,9 +29,9 @@
 			"channel": 0,
 			"name": "Input_0",
 			"type": "VT",
-			"model": "Jameco/112336",
-			"cal": 11.43,
-			"phase": 0.6
+			"model": "TDC DA-10-09-E6",
+			"cal": 10.79,
+			"phase": 0.07
 		},
 		null,
 		null,
