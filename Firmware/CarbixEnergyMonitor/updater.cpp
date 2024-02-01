@@ -395,7 +395,7 @@ bool unpackUpdate(String version){
     releaseFile.read(headers.header,sizeof(headers.updtHeader));
     sha256.update(headers.header,sizeof(headers.updtHeader));
     binarySize -= sizeof(headers.updtHeader);
-    if((memcmp(headers.updtHeader.CarbixEnergyMonitor, "CarbixEnergyMonitor", 8) != 0) ||
+    if((memcmp(headers.updtHeader.CarbixEnergyMonitor, "CarbixEM", 8) != 0) ||
        (memcmp(headers.updtHeader.release, version.c_str(), 8) != 0)) {
       log("Updater: release file header invalid. %s %s",headers.updtHeader.CarbixEnergyMonitor,headers.updtHeader.release);
       releaseFile.close();
@@ -422,7 +422,7 @@ bool unpackUpdate(String version){
       return false;
     }
     String filename = String(headers.fileHeader.name);
-    bool carbixenergymonitorBin = filename.equalsIgnoreCase("carbixenergymonitor.bin");
+    bool carbixenergymonitorBin = filename.equalsIgnoreCase("carbix.bin");
     if(carbixenergymonitorBin){
       binaryFound = true;
       md5.begin();
