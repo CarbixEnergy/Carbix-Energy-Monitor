@@ -499,7 +499,7 @@ bool unpackUpdate(String version){
 bool installUpdate(String version){
   UpdaterClass update;
   File inFile;
-  String inPath = version + "/carbixenergymonitor.bin";
+  String inPath = version + "/carbix.bin";
   inFile = SD.open((char*)inPath.c_str());
   if( ! inFile) return false;
   uint32_t inLen = inFile.size() - 32;
