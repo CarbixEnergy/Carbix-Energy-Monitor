@@ -23,10 +23,14 @@ While not certified to a standard, users typically report accuracy within 1% of 
 
 Taking advantage of China's cost-effective supply chain, we will provide more reliable,
 lower-priced energy monitors to quickly promote project development.
-We will sell Carbix energy monitor kit and current sensor accessories on Amazon US soon,
+Now We sell Carbix energy monitor kit and current sensor accessories on `Amazon US <https://www.amazon.com/Monitor-CIRCUIT-Electricity-Open-Source-Open-Hardware/dp/B0CTCNH859/ref=sr_1_1?crid=GHFCVGY5C1JV&dib=eyJ2IjoiMSJ9.Ju6gpyxUTNqL_qv9ykezx-e1awh7hbRZ9p8xD7_apEs.Vw6jGimIhNebO4rCuWbQiBown-h-u4_xEG2iEEbBttw&dib_tag=se&keywords=carbix+energy+monitor&qid=1710125321&sprefix=carbix+energy+monito%2Caps%2C1449&sr=8-1>`_,
 allowing users to purchase according to their needs. For this equipment,
 there is still a lot of room for cost optimization, which requires us to have a certain scale effect,
 and we will work hard for this.
+
+.. image:: Docs/pics/amazon.png
+    :scale: 20 %
+    :align: center
 
 Thanks to Bob Lemaire the founder of IotaWatt for doing such a great job, we will continue to promote the open source development of this project.
 
